@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Cheat Sheet Site</title>
+        <link rel="stylesheet" href="./resources/css/styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="nav-bar">
+           
+            <nav>
+                <a href="#html-tags">HTML Tags</a>
+                <a href="#css-tags">CSS Tags</a>
+                <a href="#table-tags">Table Tags</a>
+                <a href="#containers-tags">Containers Tags</a>
+                <a href="#multimedia-tags">Multimedia Tags</a>
+            </nav>
+            
+            
+            <header>
+                <h1>HTML Tags Reference</h1>
+            </header>
+
+            <section id="html-tags">
+                <h2>HTML Tags</h2>
+                <table>
+                    <thead>
+                        <tr class="table-html-header">
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Closing Tag Required</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;!DOCTYPE html&gt;</td>
+                            <td>Document Type Declaration</td>
+                            <td>Defines the document type</td>
+                            <td class="closing-tag">No</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;html&gt;</html></td>
+                            <td>Root Element</td>
+                            <td>Defines the root of an HTML document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;head&gt;</td>
+                            <td>Site & Meta Data</td>
+                            <td>Contains metadata/information for the document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;title&gt;</td>
+                            <td>Document Title</td>
+                            <td>Defines a title for the document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;body&gt;</td>
+                            <td>Document Body</td>
+                            <td>Contains the visible page content</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;h1&gt; ... &lt;h6&gt;</td>
+                            <td>Heading 1</td>
+                            <td>Defines HTML heading and size from h1 to h6</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;p&gt;</td>
+                            <td>Paragraph</td>
+                            <td>Defines a paragraph</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;br&gt;</td>
+                            <td>Break Line</td>
+                            <td>Inserts a single line break</td>
+                            <td class="closing-tag">No</td>
+                        </tr>
+                        
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;nav</td>
+                            <td>Navigation</td>
+                            <td>Defines navigation links</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;main&gt;</td>
+                            <td>Main</td>
+                            <td>Defines the main content of a document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;article&gt;</td>
+                            <td>Article</td>
+                            <td>Defines an article in a document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;aside&gt;</td>
+                            <td>Aside</td>
+                            <td>Defines content aside from the page content</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;style</td>
+                            <td>Style</td>
+                            <td>Defines style information for a document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;link&gt;</td>
+                            <td>Link</td>
+                            <td>Defines the relationship between a document and an external resource</td>
+                            <td class="closing-tag">No</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;embed&gt;</td>
+                            <td>Embed</td>
+                            <td>Defines a container for an external application or interactive content</td>
+                            <td class="closing-tag">No</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;figure&gt;</td>
+                            <td>Figure</td>
+                            <td>Defines self-contained content</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;figcaption&gt;</td>
+                            <td>Figure Caption</td>
+                            <td>Defines a caption for a figure element</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;img&gt;</td>
+                            <td>Image</td>
+                            <td>Defines an image</td>
+                            <td class="closing-tag">No</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;!-- comment --&gt;</td>
+                            <td>Comment</td>
+                            <td>Defines a comment</td>
+                            <td class="closing-tag">No</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;a&gt;</td>
+                            <td>hyperlink tag</td>
+                            <td>Defines a hyperlink, which is used to link from one page to another. most important attribute of &lt;a&gt; is href</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;ol&gt;</td>
+                            <td>Ordered List</td>
+                            <td>Defines a list that is ordered and marked using numbers by default</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;ul&gt;</td>
+                            <td>UnOrdered List</td>
+                            <td>Defines a list that is unordered denoted by a circle or dot by default</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-even">
+                            <td class="tag">&lt;li&gt;</td>
+                            <td>List Item</td>
+                            <td>Defines a list item that is a sub item of an unordered/ordered list</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-html-odd">
+                            <td class="tag">&lt;ul&gt;</td>
+                            <td>UnOrdered List</td>
+                            <td>Defines a list that is unordered denoted by a circle or dot by default</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a href="#nav-bar">Back to top</a>
+                        </td>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section id="css-tags">
+                <h2>CSS Tags</h2>
+                <table>
+                    <thead>
+                        <tr class="table-css-header">
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-css-even">
+                            <td class="tag">color: value;</td>
+                            <td>Set the color of the text for this element</td>
+                            <td>color is used to style the color of text</td>
+                        </tr>
+                        <tr class="table-css-odd">
+                            <td class="tag">background-color: value;</td>
+                            <td>Set the background color of the elements space</td>
+                            <td>background-color is used to style the background of an elements space</td>
+                        </tr>
+                        <tr class="table-css-even">
+                            <td class="tag">text-align: value;</td>
+                            <td>text align</td>
+                            <td>Specifies the horizontal alignment of text</td>
+                        </tr>
+                        <tr class="table-css-odd">
+                            <td class="tag">font-weight: value;</td>
+                            <td>font weight</td>
+                            <td>Specifies the weight of a font, such as bold</td>
+                        </tr>
+                        <tr class="table-css-even">
+                            <td class="tag">font-family: value;</td>
+                            <td>font</td>
+                            <td>Set the font to be used with the element, can have multiple</td>
+                        </tr>
+                        <tr class="table-css-odd">
+                            <td class="tag">font-size: value;</td>
+                            <td>font size</td>
+                            <td>sets the size of the font</td>
+                        </tr>
+                        <tr class="table-css-even">
+                            <td class="tag">line-height: value;</td>
+                            <td>line height</td>
+                            <td>Sets the line height</td>
+                        </tr>
+                        <tr class="table-css-odd">
+                            <td class="tag">position: value;</td>
+                            <td>element position</td>
+                            <td>Specifies the type of positioning medthod used for an element</td>
+                        </tr>
+                        <tr class="table-css-even">
+                            <td class="tag">display: value;</td>
+                            <td>display</td>
+                            <td>Specifies how a certain HTML element should be displayed</td>
+                        </tr>
+                        <tr class="table-css-odd">
+                            <td class="tag">border: value;</td>
+                            <td>border color & style</td>
+                            <td>this will allow you to see the border and give it a color and line type as a style</td>
+                        </tr>
+                        <tr class="table-css-even">
+                            <td class="tag">text-transform: value;</td>
+                            <td>text-transform</td>
+                            <td>this controls the capitalization of text</td>
+                        </tr>
+                        <tr class="table-css-odd">
+                            <td class="tag">padding: value;</td>
+                            <td>padding</td>
+                            <td>padding adjust the space around the border of the element to the content</td>
+                        </tr>
+                        <tr class="table-css-even">
+                            <td class="tag">margin: value;</td>
+                            <td>margin</td>
+                            <td>margin can adjust the space around the element</td>
+                        </tr>
+                        <tr class="table-css-odd">
+                            <td class="tag">@font-face { font-family: font; src: url(font.woff); }</td>
+                            <td>Custom Font</td>
+                            <td>Define custom fonts to be used within css.</td>
+                        </tr>
+                        
+
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a href="#nav-bar">Back to top</a>
+                        </td>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section id="table-tags">
+                <h2>Table Tags</h2>
+                <table>
+                    <thead>
+                        <tr class="table-table-header">
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-table-even">
+                            <td class="tag">&lt;table&gt;</td>
+                            <td>Table</td>
+                            <td>Defines a table</td>
+                        </tr>
+                        <tr class="table-table-odd">
+                            <td class="tag">&lt;thead&gt;</td>
+                            <td>Table Head</td>
+                            <td>Groups the header content in a table</td>
+                        </tr>
+                        <tr class="table-table-even">
+                            <td class="tag">&lt;th&gt;</td>
+                            <td>Table Header</td>
+                            <td>Defines a header cell in a table</td>
+                        </tr>
+                        <tr class="table-table-odd">
+                            <td class="tag">&lt;tr&gt;</td>
+                            <td>Table Row</td>
+                            <td>Defines a row in a table</td>
+                        </tr>
+                        <tr class="table-table-even">
+                            <td class="tag">&lt;td&gt;</td>
+                            <td>Table Data</td>
+                            <td>Defines a cell in a table</td>
+                        </tr>
+                        <tr class="table-table-odd">
+                            <td class="tag">&lt;tbody&gt;</td>
+                            <td>Table Body</td>
+                            <td>Groups the body content in a table</td>
+                        </tr>
+                        <tr class="table-table-even">
+                            <td class="tag">&lt;tfoot&gt;</td>
+                            <td>Table Footer</td>
+                            <td>Groups the footer content in a table</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a href="#nav-bar">Back to top</a>
+                        </td>
+                    </tfoot>
+                </table>
+                
+            </section>
+
+            <section id="containers-tags">
+                <h2>Containers Tags</h2>
+                <table>
+                    <thead>
+                        <tr class="table-container-header">
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Closing Tag Required</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-container-even">
+                            <td class="tag">&lt;section&gt;</td>
+                            <td>Section</td>
+                            <td>Defines a section in a document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-container-odd">
+                            <td class="tag">&lt;div&gt;</td>
+                            <td>Division</td>
+                            <td>Defines a divison section in a document</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-container-even">
+                            <td class="tag">&lt;span&gt;</td>
+                            <td>Span</td>
+                            <td>An inline container used to mark up a part of text or document.</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-container-odd">
+                            <td class="tag">&lt;header&gt;</td>
+                            <td>Header</td>
+                            <td>Defines a header for a document or section</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-container-even">
+                            <td class="tag">&lt;footer&gt;</td>
+                            <td>Footer</td>
+                            <td>Defines a footer for a document or section</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a href="#nav-bar">Back to top</a>
+                        </td>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section id="multimedia-tags">
+                <h2>Multimedia Tags</h2>
+                <table>
+                    <thead>
+                        <tr class="table-multimedia-header">
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Closing Tag Required</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-multimedia-even">
+                            <td class="tag">&lt;audio&gt;</td>
+                            <td>Audio</td>
+                            <td>Defines sound content</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-multimedia-odd">
+                            <td class="tag">&lt;video&gt;</td>
+                            <td>Video</td>
+                            <td>Defines a video or movie</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                        <tr class="table-multimedia-even">
+                            <td class="tag">&lt;source&gt;</td>
+                            <td>Source</td>
+                            <td>Defines multiple media resources for media elements</td>
+                            <td class="closing-tag">Yes</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a href="#nav-bar">Back to top</a>
+                        </td>
+                    </tfoot>
+                </table>
+            </section>
+
+        </div>
+    </body>
+</html>
