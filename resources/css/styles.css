@@ -68,72 +68,75 @@ thead {
 
 
 tr.table-html-header {
-    background-color: hsl(358, 29%, 55%);
-    
+    background-color: rgb(113, 148, 225);
 }
 
 tr.table-html-even {
-    background-color: 	rgb(232, 214, 203);
+    /* background-color: 	rgb(232, 214, 203); */
+    background-color: hsl(200, 100%, 82%);
 }
 
 tr.table-html-odd {
-    background-color: rgb(208, 173, 167);
+    /* background-color: rgb(208, 173, 167); */
+    background-color: rgb(70, 195, 255);
 }
 
 
 
 tr.table-css-header {
-    background-color: rgb(0, 109, 119);
+    background-color: rgb(75, 137, 218);
 }
 
 tr.table-css-even {
-    background-color: hsl(174, 36%, 64%);
+    /* background-color: hsl(174, 36%, 64%); */
+    background-color: hsl(200, 100%, 82%);
 }
 
 tr.table-css-odd {
-    background-color: rgb(76, 125, 141);
+    /* background-color: rgb(76, 125, 141); */
+    background-color: rgb(70, 195, 255);
 }
 
 
 
 tr.table-table-header {
-    background-color: rgb(64, 83, 102);
+    background-color: rgb(113, 148, 225);
 }
 
 tr.table-table-even {
-    background-color: hsl(218, 17%, 62%);
+    background-color: hsl(200, 100%, 82%);
 }
 
 tr.table-table-odd {
-    background-color: rgb(164, 201, 216);
+    background-color: rgb(70, 195, 255);
 }
 
 
 
 tr.table-container-header {
-    background-color: rgb(113, 113, 255);
+    background-color: rgb(75, 137, 218);
 }
 
 tr.table-container-even {
-    background-color: hsl(200, 100%, 62%);
+    background-color: hsl(200, 100%, 82%);
 }
 
 tr.table-container-odd {
-    background-color: rgb(143, 163, 255);
+    background-color: rgb(70, 195, 255);
 }
 
 
 
 tr.table-multimedia-header {
-    background-color: rgb(32, 123, 255);
+    background-color: rgb(113, 148, 225);
 }
 
 tr.table-multimedia-even {
-    background-color: hsl(211, 66%, 87%);
+    background-color: hsl(200, 100%, 82%);
 }
 
 tr.table-multimedia-odd {
-    background-color: rgb(78, 165, 255);
+    background-color: rgb(70, 195, 255);
 }
 
 
@@ -198,9 +201,14 @@ nav a {
 }
 
 .tag {
-    background-color: rgb(203, 245, 241);
     font-family: "Lucida Console", Courier, monospace;
     font-weight: 700;
-    
-    
+}
+
+.tag-even {
+    background-color: rgb(203, 245, 241);
+}
+
+.tag-odd {
+    background-color: rgb(203, 215, 241);
 }
